@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RoomDataBaseExample</string>
+
+
+    <string name="helveticaneue">HelveticaNeue.ttf</string>
+    <string name="helveticaNeue_bold">HelveticaNeue-Bold.ttf</string>
+    <string name="helveticaneue_italic">HelveticaNeue-Italic.ttf</string>
+    <string name="helveticaneue_light">HelveticaNeue-Light.ttf</string>
+    <string name="helveticaneue_lightitalic">HelveticaNeue-LightItalic.ttf</string>
+    <string name="helveticaneue_medium">HelveticaNeue-Medium.ttf</string>
+    <string name="userName">Name</string>
+    <string name="Employee_Id">Employee Id</string>
+    <string name="Role">role</string>
+    <string name="Employ_Salary">Salary</string>
+    <string name="Manager">Manager</string>
+    <string name="save">Save</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="tharunkumar_chittimi">TharunKumar Chittimi</string>
+    <string name="profile">PROFILE</string>
+    <string name="welcome">Welcome</string>
+    <string name="device_info">Device Info</string>
+    <string name="_profile">Profile</string>
+    <string name="team">Team</string>
+    <string name="attendance">Attendance</string>
+    <string name="salary_progress">Salary Progress</string>
+    <string name="projects">Projects</string>
+</resources>

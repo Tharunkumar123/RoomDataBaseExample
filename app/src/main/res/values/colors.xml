@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#401DB5</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorSemiPrimary">#7DC1F5</color>
+    <color name="colorLitePrimary">#DFEDF8</color>
+    <color name="Grey">#B6B4B4</color>
+    <color name="lightGrey">#F5F5F5</color>
+    <color name="lightGold">#FFCE33</color>
+    <color name="semiBlack">#0C0C0C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gTop">#342A9B</color>
+    <color name="gMid">#401DB5</color>
+    <color name="gEnd">#431BB9</color>
+    <color name="profile">#0B0075</color>
+    <color name="underLine">#04BAF8</color>
+    <color name="dullWhite">#D3CECE</color>
+    <color name="employee_transparent">#85431BB9</color>
+    <color name="cardSemiBlack">#455A65</color>
+    <color name="liteBlue">#3799f4</color>
+    <color name="dimBlack">#DA313131</color>
+    <color name="lightOrange">#FA9371</color>
+    <color name="green">#01FC13</color>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".addtask.AddTaskActivity">
+
+
+        <com.example.roomdatabaseexample.widgets.MyTextView
+            android:id="@+id/txtHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32dp"
+            android:text="Add a Notes"
+            android:textColor="@color/semiBlack"
+            style="@style/extra_large_text_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.roomdatabaseexample.widgets.MyEditText
+            android:id="@+id/edtTaskTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColor="@color/semiBlack"
+            android:layout_marginStart="@dimen/_24dp"
+            android:layout_marginTop="@dimen/_32dp"
+            android:layout_marginEnd="@dimen/_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtHeading" />
+
+
+        <com.example.roomdatabaseexample.widgets.MyEditText
+            android:id="@+id/edtTaskDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:textColor="@color/semiBlack"
+            android:layout_marginStart="@dimen/_24dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:layout_marginEnd="@dimen/_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtTaskTitle" />
+
+        <com.example.roomdatabaseexample.widgets.MyEditText
+            android:id="@+id/edtTaskFinishBy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Finish By?"
+
+            android:textColor="@color/semiBlack"
+            android:layout_marginStart="@dimen/_24dp"
+            android:layout_marginTop="@dimen/_8dp"
+            android:layout_marginEnd="@dimen/_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtTaskDescription" />
+
+        <com.example.roomdatabaseexample.widgets.MyButton
+            android:id="@+id/btnSave"
+            android:layout_width="@dimen/_150dp"
+            android:text="Save"
+            style="@style/large_text_bold"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtTaskFinishBy" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
